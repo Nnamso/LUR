@@ -1,5 +1,9 @@
 /*--------------------general styles ----------------- */
+.button
+{
 
+	background: #34434;
+}
 h1{
 
 	font-size: 30px;
