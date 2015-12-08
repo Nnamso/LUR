@@ -1,3 +1,5 @@
+
+
 /*--------------------general styles ----------------- */
 input[type=checkbox], input[type=radio] {
     margin: -5px 0 0;
@@ -37,11 +39,12 @@ div.hdtle {
 
 
 div.formbdy {
-    width: 95.8%;
+    width: 100%;
     height: 100%;
-    border: #DEDEDE 1px solid;
+    border: #DEDEDE 5px solid;
     padding: 2%;
-        padding-bottom: 55px;
+    padding-bottom: 55px;
+    position: center;
 }
 
 
@@ -66,23 +69,7 @@ img{
 	float: right;
 	 margin: 30px;
 }
-small{
-	float: right;
-}
-.info-title, .info-description{
-	border:1px solid #ccc;
-	box-shadow: 1px 1px 1px rgba(1,0,0,.3);
-	/*height: 30px;*/
-    text-align: left;
-    padding: 5px;
-}
-.info-title{
-	border:none;
-}
-.info-title:before, .info-description:before{
-	content: "";
-	max-height: 100px;
-}
+
 .info-category{
 	/*border-radius: 3px;*/
 	display: block;
@@ -125,7 +112,7 @@ h5{
 	font-weight: bolder;
 }
 span{
-	float: left;
+	/*float: left;*/
     margin-left: 20px;
     margin-top: 6px;
     font-size: 15px;
